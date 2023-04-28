@@ -25,6 +25,7 @@ function App() {
           placeholder='Your Name'
         ></input>
         <input
+          className='set-occupation'
           onChange={(e) => setOccupation(e.target.value)}
           type='text'
           placeholder='Your Occupation'

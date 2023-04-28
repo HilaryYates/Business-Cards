@@ -17,6 +17,10 @@
   background: #fff;
 }
 
+.set-occupation {
+  margin-left: 10px;
+}
+
 .displayUsers div {
   width: 400px;
   height: 150px;
