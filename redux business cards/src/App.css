@@ -1,0 +1,44 @@
+.App {
+  display: flex;
+  justify-content: flex-start;
+  flex-direction: column;
+  align-items: center;
+  height: 100vh;
+
+  border: 1px solid black;
+  width: 100vh;
+}
+
+.displayUsers {
+  /* display: flex;
+  justify-content: flex-start;
+  align-self: flex-start;
+  flex-direction: column; */
+  /* margin-top: 20px; */
+}
+
+.displayUsers div {
+  width: 400px;
+  height: 150px;
+  padding: 20px;
+  margin: 20px;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.1), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  text-align: center;
+}
+
+.user-occupation {
+  font-size: 16px;
+}
+
+.user-name {
+  font-size: 18px;
+}
+
+.update-btn {
+  font-size: 10px;
+}
+
+.delete-card {
+  font-size: 10px;
+}
