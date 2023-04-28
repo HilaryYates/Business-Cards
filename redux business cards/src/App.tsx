@@ -22,14 +22,15 @@ function App() {
         <input
           onChange={(e) => setName(e.target.value)}
           type='text'
-          placeholder='name'
+          placeholder='Your Name'
         ></input>
         <input
           onChange={(e) => setOccupation(e.target.value)}
           type='text'
-          placeholder='occupation'
+          placeholder='Your Occupation'
         ></input>
         <button
+          className='create-btn'
           onClick={() => {
             if (name && occupation !== "")
               dispatch(
@@ -57,6 +58,7 @@ function App() {
                 placeholder='New Occupation'
               ></input>
               <button
+                className='update-btn'
                 onClick={() => {
                   dispatch(
                     addOccupation({
